@@ -25,6 +25,10 @@ function mostrarEncriptar() {
   btncopiar.style.display = "block";
   let inputrequestLimpiar = document.getElementById("txtarearequest");
   inputrequestLimpiar.value="";
+  let h1message = document.getElementById("h1ResponseMensaje");
+  let pmessage = document.getElementById("pReponseMensaje");
+  h1message.style.display="none";
+  pmessage.style.display ="none"
 }
 
 function desencriptar() {
@@ -47,6 +51,10 @@ function mostrarDesencriptar() {
   btncopiar.style.display = "block";
   let inputrequestLimpiar = document.getElementById("txtarearequest");
   inputrequestLimpiar.value="";
+  let h1message = document.getElementById("h1ResponseMensaje");
+  let pmessage = document.getElementById("pReponseMensaje");
+  h1message.style.display="none";
+  pmessage.style.display ="none"
 }
 
 function btncopy() {

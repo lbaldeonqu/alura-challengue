@@ -5,6 +5,9 @@ body {
     font-family: Arial, sans-serif;
     position: relative;
 }
+
+
+
 img{
     padding-top: 20px
 }
@@ -18,6 +21,15 @@ img{
 .column {
     padding: 20px;
 }
+footer{
+    text-align: center;
+    background-color:#0A3871;
+    padding: 10px;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+}
 #imgalert{
     margin: 0 0 50px 0;
     color: #B6BAC1;
@@ -30,12 +42,12 @@ img{
 #txtarearequest{
     padding-top: 100px;
     color:#0A3871 ;
-    font-size: 20px !important; /* Usa !important con precaución */
+    font-size: 20px !important;
     outline: none;
     border: none;
     background-color: #F3F5FC;
     resize: none;
-    width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+    width: 100%; 
     height: 600px;
     box-sizing: border-box; 
 }
@@ -51,7 +63,7 @@ img{
     border-radius: 50px;
     color: black;
     padding: 30px;
-    width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+    width: 100%; 
     height: 800px;
     background: white;
     background-image: url(../img/muneco.png);
@@ -119,7 +131,7 @@ img{
         border: none;
         background-color: #F3F5FC;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 100%; 
         height: 150px;
         box-sizing: border-box; 
     }
@@ -129,7 +141,7 @@ img{
         outline: none;
         border: none;
         resize: none;
-        width: 92%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 92%; 
         height: 150px;
         border-radius: 50px;
         color: black;
@@ -144,6 +156,7 @@ img{
         font-size: 20px;
         background:#0A3871 ;
         color: #D8DFE8;
+        cursor: pointer;
     }
     
     #btndesencriptar{
@@ -154,6 +167,7 @@ img{
         font-size: 20px;
         background:#D8DFE8 ;
         color: #0A3871;
+        cursor: pointer;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -189,6 +203,7 @@ img{
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
+        cursor: pointer;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -221,7 +236,7 @@ img{
         border: none;
         background-color: #F3F5FC;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 100%; 
         height: 150px;
         box-sizing: border-box; 
     }
@@ -231,7 +246,7 @@ img{
         outline: none;
         border: none;
         resize: none;
-        width: 92%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 92%; 
         height: 150px;
         border-radius: 50px;
         color: black;
@@ -246,6 +261,7 @@ img{
         font-size: 20px;
         background:#0A3871 ;
         color: #D8DFE8;
+        cursor: pointer;
     }
     
     #btndesencriptar{
@@ -256,6 +272,7 @@ img{
         font-size: 20px;
         background:#D8DFE8 ;
         color: #0A3871;
+        cursor: pointer;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -267,16 +284,16 @@ img{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -200px; /* Ajusta la posición vertical según tus necesidades */
-        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+        top: -200px; 
+        left: 0%; 
     }
     #pReponseMensaje{
         position: relative;
         text-align: center;
         width: 100%;
         height: 0;
-        top: -150px; /* Ajusta la posición vertical según tus necesidades */
-        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+        top: -150px; 
+        left: 0%; 
     }
     #btncopiar{
         display: none;
@@ -285,11 +302,12 @@ img{
         width: 90%;
         height: 8%;
         position: absolute;
-        top: 510px; /* Ajusta la posición vertical según tus necesidades */
-        left: 40px; /* Ajusta la posición horizontal según tus necesidades */
+        top: 510px; 
+        left: 40px; 
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
+        cursor: pointer;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -322,7 +340,7 @@ img{
         border: none;
         background-color: #F3F5FC;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 100%; 
         height: 200px;
         box-sizing: border-box; 
     }
@@ -332,7 +350,7 @@ img{
         outline: none;
         border: none;
         resize: none;
-        width: 95%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 95%; 
         height: 200px;
         border-radius: 50px;
         color: black;
@@ -347,6 +365,7 @@ img{
         font-size: 20px;
         background:#0A3871 ;
         color: #D8DFE8;
+        cursor: pointer;
     }
     
     #btndesencriptar{
@@ -357,6 +376,7 @@ img{
         font-size: 20px;
         background:#D8DFE8 ;
         color: #0A3871;
+        cursor: pointer;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -391,6 +411,7 @@ img{
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
+        cursor: pointer;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -412,7 +433,7 @@ img{
         border: none;
         background-color: #F3F5FC;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 100%; 
         height: 600px;
         box-sizing: border-box; 
     }
@@ -422,7 +443,7 @@ img{
         outline: none;
         border: none;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 100%; 
         height: 650px;
         border-radius: 50px;
         color: black;
@@ -440,6 +461,7 @@ img{
         font-size: 20px;
         background:#0A3871 ;
         color: #D8DFE8;
+        cursor: pointer;
     }
     
     #btndesencriptar{
@@ -450,6 +472,7 @@ img{
         font-size: 20px;
         background:#D8DFE8 ;
         color: #0A3871;
+        cursor: pointer;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -484,6 +507,7 @@ img{
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
+        cursor: pointer;
     }
 }
 @media only screen and (min-width: 1400px) {
@@ -500,12 +524,12 @@ img{
     #txtarearequest{
         padding-top: 0px;
         color:#0A3871 ;
-        font-size: 20px !important; /* Usa !important con precaución */
+        font-size: 20px !important;
         outline: none;
         border: none;
         background-color: #F3F5FC;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        width: 100%;
         height: 700px;
         box-sizing: border-box; 
     }
@@ -515,8 +539,8 @@ img{
         outline: none;
         border: none;
         resize: none;
-        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
-        height: 750px;
+        width: 100%; 
+        height: 700px;
         border-radius: 50px;
         color: black;
         padding: 30px;
@@ -533,6 +557,7 @@ img{
         font-size: 20px;
         background:#0A3871 ;
         color: #D8DFE8;
+        cursor: pointer;
     }
     
     #btndesencriptar{
@@ -543,6 +568,7 @@ img{
         font-size: 20px;
         background:#D8DFE8 ;
         color: #0A3871;
+        cursor: pointer;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -554,16 +580,16 @@ img{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -300px; /* Ajusta la posición vertical según tus necesidades */
-        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        top: -270px; 
+        left: 35px;
     }
     #pReponseMensaje{
         position: relative;
         text-align: center;
         width: 100%;
         height: 0;
-        top: -230px; /* Ajusta la posición vertical según tus necesidades */
-        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        top: -200px; 
+        left: 35px; 
     }
     #btncopiar{
         display: none;
@@ -572,11 +598,12 @@ img{
         width: 100%;
         height: 8%;
         position: relative;
-        top: -170px; /* Ajusta la posición vertical según tus necesidades */
-        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        top: -170px; 
+        left: 35px; 
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
+        cursor: pointer;
     }
 
 }
