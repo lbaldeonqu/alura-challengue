@@ -1,0 +1,582 @@
+body {
+    background: #F3F5FC;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+img{
+    padding-top: 20px
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.column {
+    padding: 20px;
+}
+#imgalert{
+    margin: 0 0 50px 0;
+    color: #B6BAC1;
+    font-weight: bold;
+}
+#imgalert img{
+    margin-right: 10px;
+}
+
+#txtarearequest{
+    padding-top: 100px;
+    color:#0A3871 ;
+    font-size: 20px !important; /* Usa !important con precaución */
+    outline: none;
+    border: none;
+    background-color: #F3F5FC;
+    resize: none;
+    width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+    height: 600px;
+    box-sizing: border-box; 
+}
+#txtarearequest::placeholder{
+    color:#0A3871 ;
+}
+#txtarearesponse{
+    font-size: x-large;
+    color:#0A3871 ;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 50px;
+    color: black;
+    padding: 30px;
+    width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+    height: 800px;
+    background: white;
+    background-image: url(../img/muneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+}
+#btnencriptar{
+    width: 25%;
+    height: 8%;
+    border-radius: 30px;
+    font-size: 30px;
+    background:#0A3871 ;
+    color: #D8DFE8;
+}
+
+#btndesencriptar{
+    width: 25%;
+    height: 8%;
+    border-radius: 30px;
+    font-size: 30px;
+    background:#D8DFE8 ;
+    color: #0A3871;
+}
+#btncopiar{
+    display: none;
+    color:#0A3871 ;    
+    background: white;
+    width: 15%;
+    height: 8%;
+    position: absolute;
+    top: 750px; /* Ajusta la posición vertical según tus necesidades */
+    left: 1400px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 1;     
+    border-radius: 20px;
+    font-size: 30px;
+}
+@media only screen and (max-width: 767px) {
+    body {
+        background: #F3F5FC;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        position: absolute;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .column {
+        padding: 15px
+    }
+    #img_alura{
+        height: 15px;
+    }
+    #txtarearequest{
+        padding-top: 0px;
+        color:#0A3871 ;
+        font-size: 20px !important; /* Usa !important con precaución */
+        outline: none;
+        border: none;
+        background-color: #F3F5FC;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 150px;
+        box-sizing: border-box; 
+    }
+    #txtarearesponse{    
+        font-size: x-large;
+        color:#0A3871 ;
+        outline: none;
+        border: none;
+        resize: none;
+        width: 92%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 150px;
+        border-radius: 50px;
+        color: black;
+        padding: 30px;
+        background: white;
+        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+    }
+    #btnencriptar{
+        width: 45%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#0A3871 ;
+        color: #D8DFE8;
+    }
+    
+    #btndesencriptar{
+        margin-top: 5px;
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#D8DFE8 ;
+        color: #0A3871;
+    }
+    #imgalert{
+        margin: 0 0 5px 0;
+        color: #B6BAC1;
+        font-weight: bold;
+    }
+
+    #h1ResponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -220px; /* Ajusta la posición vertical según tus necesidades */
+        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #pReponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -160px; /* Ajusta la posición vertical según tus necesidades */
+        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+    }    
+    #btncopiar{
+        display: none;
+        color:#0A3871 ;    
+        background: white;
+        width: 90%;
+        height: 8%;
+        position: absolute;
+        top: 500px; /* Ajusta la posición vertical según tus necesidades */
+        left: 40px; /* Ajusta la posición horizontal según tus necesidades */
+        z-index: 1;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background: #F3F5FC;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        position: absolute;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .column {
+        padding: 15px
+    }
+    #img_alura{
+        height: 15px;
+    }
+    #txtarearequest{
+        padding-top: 0px;
+        color:#0A3871 ;
+        font-size: 20px !important; /* Usa !important con precaución */
+        outline: none;
+        border: none;
+        background-color: #F3F5FC;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 150px;
+        box-sizing: border-box; 
+    }
+    #txtarearesponse{    
+        font-size: x-large;
+        color:#0A3871 ;
+        outline: none;
+        border: none;
+        resize: none;
+        width: 92%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 150px;
+        border-radius: 50px;
+        color: black;
+        padding: 30px;
+        background: white;
+        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+    }
+    #btnencriptar{
+        width: 45%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#0A3871 ;
+        color: #D8DFE8;
+    }
+    
+    #btndesencriptar{
+        margin-top: 5px;
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#D8DFE8 ;
+        color: #0A3871;
+    }
+    #imgalert{
+        margin: 0 0 5px 0;
+        color: #B6BAC1;
+        font-weight: bold;
+    }
+    #h1ResponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -200px; /* Ajusta la posición vertical según tus necesidades */
+        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #pReponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -150px; /* Ajusta la posición vertical según tus necesidades */
+        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #btncopiar{
+        display: none;
+        color:#0A3871 ;    
+        background: white;
+        width: 90%;
+        height: 8%;
+        position: absolute;
+        top: 510px; /* Ajusta la posición vertical según tus necesidades */
+        left: 40px; /* Ajusta la posición horizontal según tus necesidades */
+        z-index: 1;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background: #F3F5FC;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        position: absolute;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .column {
+        padding: 15px
+    }
+    #img_alura{
+        height: 15px;
+    }
+    #txtarearequest{
+        padding-top: 0px;
+        color:#0A3871 ;
+        font-size: 20px !important; /* Usa !important con precaución */
+        outline: none;
+        border: none;
+        background-color: #F3F5FC;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 200px;
+        box-sizing: border-box; 
+    }
+    #txtarearesponse{    
+        font-size: x-large;
+        color:#0A3871 ;
+        outline: none;
+        border: none;
+        resize: none;
+        width: 95%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 200px;
+        border-radius: 50px;
+        color: black;
+        padding: 30px;
+        background: white;
+        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+    }
+    #btnencriptar{
+        width: 45%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#0A3871 ;
+        color: #D8DFE8;
+    }
+    
+    #btndesencriptar{
+        margin-top: 5px;
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#D8DFE8 ;
+        color: #0A3871;
+    }
+    #imgalert{
+        margin: 0 0 5px 0;
+        color: #B6BAC1;
+        font-weight: bold;
+    }
+    #h1ResponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -220px; /* Ajusta la posición vertical según tus necesidades */
+        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #pReponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -180px; /* Ajusta la posición vertical según tus necesidades */
+        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #btncopiar{
+        display: none;
+        color:#0A3871 ;    
+        background: white;
+        width: 80%;
+        height: 8%;
+        position: absolute;
+        top: 600px; /* Ajusta la posición vertical según tus necesidades */
+        left: 100px; /* Ajusta la posición horizontal según tus necesidades */
+        z-index: 1;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 95%;
+    }
+    
+    .column {
+        padding: 20px;
+    }
+    #txtarearequest{
+        padding-top: 0px;
+        color:#0A3871 ;
+        font-size: 20px !important; /* Usa !important con precaución */
+        outline: none;
+        border: none;
+        background-color: #F3F5FC;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 600px;
+        box-sizing: border-box; 
+    }
+    #txtarearesponse{    
+        font-size: x-large;
+        color:#0A3871 ;
+        outline: none;
+        border: none;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 650px;
+        border-radius: 50px;
+        color: black;
+        padding: 30px;
+        background: white;
+        background-image: url(../img/muneco.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+    }
+    #btnencriptar{
+        width: 45%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#0A3871 ;
+        color: #D8DFE8;
+    }
+    
+    #btndesencriptar{
+        margin-top: 5px;
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#D8DFE8 ;
+        color: #0A3871;
+    }
+    #imgalert{
+        margin: 0 0 5px 0;
+        color: #B6BAC1;
+        font-weight: bold;
+    }
+    #h1ResponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -300px; /* Ajusta la posición vertical según tus necesidades */
+        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #pReponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -230px; /* Ajusta la posición vertical según tus necesidades */
+        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #btncopiar{
+        display: none;
+        color:#0A3871 ;    
+        background: white;
+        width: 100%;
+        height: 8%;
+        position: relative;
+        top: -150px; /* Ajusta la posición vertical según tus necesidades */
+        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        z-index: 1;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 95%;
+    }
+    
+    .column {
+        padding: 20px;
+    }
+    #txtarearequest{
+        padding-top: 0px;
+        color:#0A3871 ;
+        font-size: 20px !important; /* Usa !important con precaución */
+        outline: none;
+        border: none;
+        background-color: #F3F5FC;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 700px;
+        box-sizing: border-box; 
+    }
+    #txtarearesponse{    
+        font-size: x-large;
+        color:#0A3871 ;
+        outline: none;
+        border: none;
+        resize: none;
+        width: 100%; /* Asegúrate de que el textarea ocupe el 100% del ancho disponible */
+        height: 750px;
+        border-radius: 50px;
+        color: black;
+        padding: 30px;
+        background: white;
+        background-image: url(../img/muneco.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+    }
+    #btnencriptar{
+        width: 45%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#0A3871 ;
+        color: #D8DFE8;
+    }
+    
+    #btndesencriptar{
+        margin-top: 5px;
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        background:#D8DFE8 ;
+        color: #0A3871;
+    }
+    #imgalert{
+        margin: 0 0 5px 0;
+        color: #B6BAC1;
+        font-weight: bold;
+    }
+    #h1ResponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -300px; /* Ajusta la posición vertical según tus necesidades */
+        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #pReponseMensaje{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        top: -230px; /* Ajusta la posición vertical según tus necesidades */
+        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+    }
+    #btncopiar{
+        display: none;
+        color:#0A3871 ;    
+        background: white;
+        width: 100%;
+        height: 8%;
+        position: relative;
+        top: -170px; /* Ajusta la posición vertical según tus necesidades */
+        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        z-index: 1;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+}
