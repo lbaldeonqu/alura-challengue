@@ -5,9 +5,6 @@ body {
     font-family: Arial, sans-serif;
     position: relative;
 }
-
-
-
 img{
     padding-top: 20px
 }
@@ -78,6 +75,8 @@ footer{
     font-size: 30px;
     background:#0A3871 ;
     color: #D8DFE8;
+    border-color: #0A3871;
+    border-style: solid;
 }
 
 #btndesencriptar{
@@ -87,6 +86,8 @@ footer{
     font-size: 30px;
     background:#D8DFE8 ;
     color: #0A3871;
+    border-color: #0A3871;
+    border-style: solid;
 }
 #btncopiar{
     display: none;
@@ -95,11 +96,13 @@ footer{
     width: 15%;
     height: 8%;
     position: absolute;
-    top: 750px; /* Ajusta la posición vertical según tus necesidades */
-    left: 1400px; /* Ajusta la posición horizontal según tus necesidades */
+    top: 750px; 
+    left: 1400px; 
     z-index: 1;     
     border-radius: 20px;
     font-size: 30px;
+    border-color: #0A3871;
+    border-style: solid;
 }
 @media only screen and (max-width: 767px) {
     body {
@@ -147,7 +150,7 @@ footer{
         color: black;
         padding: 30px;
         background: white;
-        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+        box-shadow: 19px 19px 18px -2px rgba(227,208,208,0.66);
     }
     #btnencriptar{
         width: 45%;
@@ -157,6 +160,8 @@ footer{
         background:#0A3871 ;
         color: #D8DFE8;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     
     #btndesencriptar{
@@ -168,6 +173,8 @@ footer{
         background:#D8DFE8 ;
         color: #0A3871;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -180,16 +187,16 @@ footer{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -220px; /* Ajusta la posición vertical según tus necesidades */
-        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+        top: -220px; 
+        left: 0%; 
     }
     #pReponseMensaje{
         position: relative;
         text-align: center;
         width: 100%;
         height: 0;
-        top: -160px; /* Ajusta la posición vertical según tus necesidades */
-        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+        top: -160px; 
+        left: 0%; 
     }    
     #btncopiar{
         display: none;
@@ -198,12 +205,14 @@ footer{
         width: 90%;
         height: 8%;
         position: absolute;
-        top: 500px; /* Ajusta la posición vertical según tus necesidades */
-        left: 40px; /* Ajusta la posición horizontal según tus necesidades */
+        top: 500px; 
+        left: 40px; 
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -252,7 +261,7 @@ footer{
         color: black;
         padding: 30px;
         background: white;
-        box-shadow: 19px 28px 18px -2px rgba(227,208,208,0.66);
+        box-shadow: 19px 20px 18px -2px rgba(227,208,208,0.66);
     }
     #btnencriptar{
         width: 45%;
@@ -262,6 +271,8 @@ footer{
         background:#0A3871 ;
         color: #D8DFE8;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     
     #btndesencriptar{
@@ -273,6 +284,8 @@ footer{
         background:#D8DFE8 ;
         color: #0A3871;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -308,6 +321,8 @@ footer{
         border-radius: 20px;
         font-size: 30px;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -366,6 +381,8 @@ footer{
         background:#0A3871 ;
         color: #D8DFE8;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     
     #btndesencriptar{
@@ -377,6 +394,8 @@ footer{
         background:#D8DFE8 ;
         color: #0A3871;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -388,16 +407,16 @@ footer{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -220px; /* Ajusta la posición vertical según tus necesidades */
-        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+        top: -220px; 
+        left: 0%; 
     }
     #pReponseMensaje{
         position: relative;
         text-align: center;
         width: 100%;
         height: 0;
-        top: -180px; /* Ajusta la posición vertical según tus necesidades */
-        left: 0%; /* Ajusta la posición horizontal según tus necesidades */
+        top: -180px; 
+        left: 0%; 
     }
     #btncopiar{
         display: none;
@@ -406,12 +425,14 @@ footer{
         width: 80%;
         height: 8%;
         position: absolute;
-        top: 600px; /* Ajusta la posición vertical según tus necesidades */
-        left: 100px; /* Ajusta la posición horizontal según tus necesidades */
+        top: 600px; 
+        left: 100px; 
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -421,20 +442,29 @@ footer{
         justify-content: space-around;
         width: 95%;
     }
-    
     .column {
         padding: 20px;
+    }
+    footer{
+        text-align: center;
+        background-color:#0A3871;
+        width: 98.55%;
+        padding: 10px;
+    }
+    .copyright{
+        color: white;
+        font-size: 13px;
     }
     #txtarearequest{
         padding-top: 0px;
         color:#0A3871 ;
-        font-size: 20px !important; /* Usa !important con precaución */
+        font-size: 20px !important; 
         outline: none;
         border: none;
         background-color: #F3F5FC;
         resize: none;
         width: 100%; 
-        height: 600px;
+        height: 450px;
         box-sizing: border-box; 
     }
     #txtarearesponse{    
@@ -444,7 +474,7 @@ footer{
         border: none;
         resize: none;
         width: 100%; 
-        height: 650px;
+        height: 500px;
         border-radius: 50px;
         color: black;
         padding: 30px;
@@ -462,6 +492,8 @@ footer{
         background:#0A3871 ;
         color: #D8DFE8;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     
     #btndesencriptar{
@@ -473,6 +505,8 @@ footer{
         background:#D8DFE8 ;
         color: #0A3871;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -484,16 +518,16 @@ footer{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -300px; /* Ajusta la posición vertical según tus necesidades */
-        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        top: -300px; 
+        left: 35px; 
     }
     #pReponseMensaje{
         position: relative;
         text-align: center;
         width: 100%;
         height: 0;
-        top: -230px; /* Ajusta la posición vertical según tus necesidades */
-        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        top: -230px; 
+        left: 35px; 
     }
     #btncopiar{
         display: none;
@@ -502,12 +536,14 @@ footer{
         width: 100%;
         height: 8%;
         position: relative;
-        top: -150px; /* Ajusta la posición vertical según tus necesidades */
-        left: 35px; /* Ajusta la posición horizontal según tus necesidades */
+        top: -150px; 
+        left: 35px; 
         z-index: 1;
         border-radius: 20px;
         font-size: 30px;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
 }
 @media only screen and (min-width: 1400px) {
@@ -558,6 +594,8 @@ footer{
         background:#0A3871 ;
         color: #D8DFE8;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     
     #btndesencriptar{
@@ -569,6 +607,8 @@ footer{
         background:#D8DFE8 ;
         color: #0A3871;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
     #imgalert{
         margin: 0 0 5px 0;
@@ -604,6 +644,8 @@ footer{
         border-radius: 20px;
         font-size: 30px;
         cursor: pointer;
+        border-color: #0A3871;
+        border-style: solid;
     }
 
 }
