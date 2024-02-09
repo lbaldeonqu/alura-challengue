@@ -518,7 +518,7 @@ footer{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -300px; 
+        top: -200px; 
         left: 35px; 
     }
     #pReponseMensaje{
@@ -526,7 +526,7 @@ footer{
         text-align: center;
         width: 100%;
         height: 0;
-        top: -230px; 
+        top: -130px; 
         left: 35px; 
     }
     #btncopiar{
